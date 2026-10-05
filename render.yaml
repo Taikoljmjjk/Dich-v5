@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: tai-le-mmo-multi-downloader-v5
+    runtime: docker
+    plan: free
+    autoDeploy: true
+    healthCheckPath: /api/health
